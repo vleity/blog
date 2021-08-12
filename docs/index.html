@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel="icon" href="http://cdn.vleity.com/static/favicon.ico">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
+</head>
+<body>
+  <div id="app">Loading...</div>
+  <script>
+    window.$docsify = {
+      // 配置仓库地址，右上角显示GitHub图标
+      repo: 'https://gitee.com/vleity/blog',
+      // 头部导航栏
+      loadNavbar: true,
+      // 小屏设备下合并导航栏到侧边栏
+      mergeNavbar: true,
+      // 加载自定义侧边栏
+      loadSidebar: true,
+      // 避免不必要的回退过程
+      alias: {
+        '/.*/_navbar.md': '/_navbar.md',
+        '/.*/_coverpage.md': '/_coverpage.md'
+      },
+      // 显示目录
+      subMaxLevel: 1,
+      // 封面
+      coverpage: true,
+      // 只在访问主页时加载封面
+      onlyCover: true,
+      // 切换页面后是否自动跳转到页面顶部
+      auto2top: true,
+      // 在侧边栏中出现的网站图标
+      name: '<span>docsify</span>',
+      nameLink: '/',
+      // logo: 'https://cdn.jsdelivr.net/gh/docsifyjs/docsify/docs/_media/vercel_logo.svg',
+      // 执行文档里的 script 标签里的脚本，只执行第一个 script
+      executeScript: true,
+      // 全文搜索
+      search: {
+        noData: '没有找到结果',
+        paths: 'auto',
+        placeholder: '搜索'
+      },
+      // 插件
+      plugins: [
+        function(hook, vm) {
+          hook.beforeEach(function(html) {
+
+            if (/githubusercontent\.com/.test(vm.route.file)) {
+              url = vm.route.file
+                .replace('raw.githubusercontent.com', 'github.com')
+                .replace(/\/master/, '/blob/master');
+            } else if (/jsdelivr\.net/.test(vm.route.file)) {
+              url = vm.route.file
+                .replace('cdn.jsdelivr.net/gh', 'github.com')
+                .replace('@master', '/blob/master');
+            } else {
+              url =
+                'https://gitee.com/vleity/blog/blob/master/docs/' + vm.route.file;
+            }
+            var editHtml = '[:memo: Edit Document](' + url + ')\n';
+            return (
+              editHtml +
+              html +
+              '\n\n----\n\n' +
+              '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Powered by docsify</a>'
+            );
+          }),
+          hook.afterEach(function(html) {
+            if (vm.route.path === '/') {
+              return html;
+            }
+            return (
+              html +
+              '<br/> <i>Vercel</i> has given us a Pro account <br/> <a href="https://vercel.com/?utm_source=docsifyjsdocs" target="_blank"><img src="https://cdn.jsdelivr.net/gh/docsifyjs/docsify/docs/_media/vercel_logo.svg" alt="Vercel" width="100" height="64"></a>'
+            );
+          });
+        },
+      ],
+
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+  <!-- <script src="https://unpkg.com/websequencediagrams-docsify@1.0.2/dist/docsify-websequencediagrams.js"></script> -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-nginx.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-powershell.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src=""></script>
+</body>
+</html>
