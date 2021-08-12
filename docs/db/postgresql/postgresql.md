@@ -15,7 +15,7 @@ psql -h 132.108.212.128,132.121.1.74 -p 5433,5553 -U bss_gz -d jsdb
 ```sql
 psql "host=132.108.212.128 port=5433 dbname=jsdb user=bss_gz password=ZuseP*NFye86"
 --多h主机 host=host1,host2 port=port1,port2
-psql "host=132.108.212.128,132.121.1.74 port=5433,5553 dbname=jsdb user=bss_gz password=ZuseP*NFye86"
+psql "host=132.108.212.128,132.121.1.74 port=5433,5553 dbname=test user=test password=Zugsdbsvaf86"
 ```
 
 URI用法：
@@ -28,9 +28,9 @@ URI用法：
 
 ```sql
 --psql postgresql://{user}:{password}@{host}:{port}/{dbname}
-psql postgresql://bss_gz:ZuseP*NFye86@132.108.212.128:5433/jsdb
+psql postgresql://test:Zugsdbsvaf86@132.108.212.128:5433/test
 --多主机 host1:port1,host2:port2
-psql postgresql://bss_gz:ZuseP*NFye86@132.108.212.128:5433,132.121.1.74:5553/jsdb
+psql postgresql://bss_gz:Zugsdbsvaf86@132.108.212.128:5433,132.121.1.74:5553/test
 ```
 
 使用service文件
@@ -44,9 +44,9 @@ psql service=cn
 [cn]
 host=132.108.212.128
 port=5433
-dbname=jsdb
-user=bss_gz
-password=ZuseP*NFye86
+dbname=test
+user=test
+password=Zugsdbsvaf86
 keepalives_idle=60	# 连接保持
 ```
 
@@ -57,9 +57,9 @@ keepalives_idle=60	# 连接保持
 [worker]
 host=132.121.1.69,132.121.1.70
 port=5463,5493
-dbname=jsdb
-user=bss_gz
-password=ZuseP*NFye86
+dbname=test
+user=test
+password=Zugsdbsvaf86
 keepalives_idle=60	# 连接保持
 connect_timeout=2
 ```
