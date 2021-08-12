@@ -2,7 +2,7 @@
 
 # Blog | docsify <small>2021</small>
 
-> A blog based on docsify which hosted on gitee.
+> A blog based on docsify which hosted on github.
 
-[Gitee](https://gitee.com/vleity/blog/tree/master/docs/)
+[Github](https://github.com/vleity/blog/tree/master/docs/)
 [Getting Started](README#docsify)
