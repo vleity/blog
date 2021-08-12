@@ -1,4 +1,4 @@
-![logo](_media/icon.svg)
+![logo](_media/sun.jfif)
 
 # Blog | docsify <small>2021</small>
 
