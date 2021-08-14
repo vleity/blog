@@ -7,6 +7,3 @@
 
 ### 文章列表
 
-##### database/hana.md  [《hana》](database/hana.md)
-##### database/oracle.md  [《oracle》](database/oracle.md)
-##### database/postgresql.md  [《postgresql》](database/postgresql.md)

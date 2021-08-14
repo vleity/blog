@@ -7,6 +7,3 @@
 
 * [../](README.md)
 * [目录索引](database/README.md)
-* [hana](database/hana.md)
-* [oracle](database/oracle.md)
-* [postgresql](database/postgresql.md)
