@@ -7,6 +7,6 @@
 
 * [Hadoop](hadoop/)
 
-* [Database](db/)
+* [Database](database/)
 
 * [Installation](installation/)

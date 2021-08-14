@@ -26,7 +26,7 @@
         '/.*/_coverpage.md': '/_coverpage.md'
       },
       // 显示目录
-      subMaxLevel: 1,
+      subMaxLevel: 2,
       // 封面
       coverpage: true,
       // 只在访问主页时加载封面
@@ -42,9 +42,9 @@
       executeScript: true,
       // 全文搜索
       search: {
-        noData: '没有找到结果',
+        noData: 'no data',
         paths: 'auto',
-        placeholder: '搜索'
+        placeholder: 'search'
       },
       // 插件
       plugins: [
@@ -68,7 +68,7 @@
               editHtml +
               html +
               '\n\n----\n\n' +
-              '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Powered by docsify</a>'
+              'Powered by <a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">docsify</a>'
             );
           }),
           hook.afterEach(function(html) {
@@ -77,7 +77,7 @@
             }
             return (
               html +
-              '<br/> <i>Vercel</i> has given us a Pro account <br/> <a href="https://vercel.com/?utm_source=docsifyjsdocs" target="_blank"><img src="https://cdn.jsdelivr.net/gh/docsifyjs/docsify/docs/_media/vercel_logo.svg" alt="Vercel" width="100" height="64"></a>'
+              '煜学志 Copyright&copy;2020-2021 &nbsp;&nbsp; <a href="https://github.com/vleity/" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Github: https://github.com/vleity/</a> '
             );
           });
         },

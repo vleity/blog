@@ -1,16 +1,17 @@
-<!-- docs/installation/README.md -->
 
-> 软件安装
+[@id]: README.md 
+[@title]: installation
+[@location]: docs/installation/README.md
+[@author]: leity
+[@date]: 2021-08-14
 
+### 文章列表
 
-> 文章列表
-
-* [CentOS7编译安装MySQL 5.7.25](installation/mysql.md)
-* [CentOS7编译安装PostgreSQL](installation/mysql.md)
-* [CentOS7编译安装nginx](installation/nginx.md)
-* [CentOS7编译安装php](installation/php.md)
-* [安装在线vscode——code-server](installation/code-server.md)
-* [安装jupyterlab](installation/jupyterlab.md)
-* [jupyter安装kernel](installation/jupyter-kernel.md)
-* [hadoop完全分布式部署](installation/hadoop.md)
-
+##### installation/code-server.md  [《code-server》](installation/code-server.md)
+##### installation/hadoop+hive.md  [《hadoop+hive》](installation/hadoop+hive.md)
+##### installation/hadoop.md  [《hadoop》](installation/hadoop.md)
+##### installation/jupyter-kernel.md  [《jupyter-kernel》](installation/jupyter-kernel.md)
+##### installation/jupyterlab.md  [《jupyterlab》](installation/jupyterlab.md)
+##### installation/nginx.md  [《nginx》](installation/nginx.md)
+##### installation/php.md  [《php》](installation/php.md)
+##### installation/postgresql.md  [《postgresql》](installation/postgresql.md)
