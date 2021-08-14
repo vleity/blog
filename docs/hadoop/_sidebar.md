@@ -7,6 +7,3 @@
 
 * [../](README.md)
 * [目录索引](hadoop/README.md)
-* [hadoop](hadoop/hadoop.md)
-* [hive](hadoop/hive.md)
-* [kafka](hadoop/kafka.md)

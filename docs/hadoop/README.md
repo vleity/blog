@@ -7,6 +7,3 @@
 
 ### 文章列表
 
-##### hadoop/hadoop.md  [《hadoop》](hadoop/hadoop.md)
-##### hadoop/hive.md  [《hive》](hadoop/hive.md)
-##### hadoop/kafka.md  [《kafka》](hadoop/kafka.md)

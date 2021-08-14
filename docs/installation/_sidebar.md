@@ -7,11 +7,3 @@
 
 * [../](README.md)
 * [目录索引](installation/README.md)
-* [code-server](installation/code-server.md)
-* [hadoop+hive](installation/hadoop+hive.md)
-* [hadoop](installation/hadoop.md)
-* [jupyter-kernel](installation/jupyter-kernel.md)
-* [jupyterlab](installation/jupyterlab.md)
-* [nginx](installation/nginx.md)
-* [php](installation/php.md)
-* [postgresql](installation/postgresql.md)
