@@ -1,5 +1,5 @@
 
-[@id]: _sidebar.md 
+[@id]: _sidebar.md
 [@title]: python
 [@location]: docs/python/_sidebar.md
 [@author]: leity
@@ -7,3 +7,4 @@
 
 * [../](README.md)
 * [目录索引](python/README.md)
+
