@@ -1,9 +1,9 @@
 
-[@id]: README.md
+[@id]: README.md 
 [@title]: 首页
 [@location]: docs/README.md
 [@author]: leity
-[@date]: 2021-08-14
+[@date]: 2021-11-03
 
 ### 文章列表
 
@@ -12,6 +12,7 @@
 
 ----
 
+##### database/20210820-01.md  [《基于PostgreSQL建立金融数据的数据仓库》](database/20210820-01.md)
 
 ### hadoop
 
@@ -23,7 +24,15 @@
 ----
 
 
+### linux
+
+----
+
+##### linux/20210930-01.md  [《linux中shell变量$#,$@,$0,$1,$2的含义解释》](linux/20210930-01.md)
+
 ### python
 
 ----
 
+##### python/20210815-01.md  [《Python调用企业微信API发送企业微信应用消息》](python/20210815-01.md)
+##### python/20210817-01.md  [《pandasql》](python/20210817-01.md)
