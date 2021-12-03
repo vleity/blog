@@ -3,9 +3,14 @@
 [@title]: 首页
 [@location]: docs/README.md
 [@author]: leity
-[@date]: 2021-11-03
+[@date]: 2021-12-03
 
 ### 文章列表
+
+
+### bigdata
+
+----
 
 
 ### database
@@ -13,11 +18,6 @@
 ----
 
 ##### database/20210820-01.md  [《基于PostgreSQL建立金融数据的数据仓库》](database/20210820-01.md)
-
-### hadoop
-
-----
-
 
 ### installation
 
@@ -28,7 +28,7 @@
 
 ----
 
-##### linux/20210930-01.md  [《linux中shell变量$#,$@,$0,$1,$2的含义解释》](linux/20210930-01.md)
+##### linux/20210930-01.md  [《linux中shell一系列变量的含义解释》](linux/20210930-01.md)
 
 ### python
 

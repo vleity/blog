@@ -6,7 +6,7 @@
 
 * [Python](python/)
 
-* [Hadoop](hadoop/)
+* [Bigdata](bigdata/)
 
 * [Database](database/)
 
