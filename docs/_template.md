@@ -1,7 +1,7 @@
 
 [@id]: _sidebar.md
 [@title]: _sidebar
-[@location]: docs/dbms/_sidebar.md
+[@location]: docs/database/_sidebar.md
 [@author]: leity
 [@date]: 2021-01-01
 
