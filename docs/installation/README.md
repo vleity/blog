@@ -3,7 +3,7 @@
 [@title]: installation
 [@location]: docs/installation/README.md
 [@author]: leity
-[@date]: 2021-12-31
+[@date]: 2022-01-12
 
 ### 文章列表
 
